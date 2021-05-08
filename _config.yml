@@ -1,12 +1,5 @@
 title: '운영체제 스터디'
-decription: ''
-url: 'http://gospel4u.github.io/'
-baseurl: ''
-
-author:
-  name: 'Hosea Lee'
-
-Basic concepts
+decription: 'Basic concepts
 Motivation :
 Multiprogramming과 multitasking을 사용해서 CPU의 사용량을 최대한으로 늘릴 수 있게 하기 위해서
 Resource(CPU 포함)는 process간에 공유된다.
@@ -299,3 +292,10 @@ Real time request보다 낮은 priority를 가진 process가 request가 필요�
 dispatch latency에 영향을 주는 것 = Conflict 
 첫번째로 커널에서 수행중인 작업이 있어 preemptive할 수 없는 경우 존재. Non-preemptive kernel을 사용할 시 그런 경우가 많아 진다. 이러한 경우는 preemptive 커널의 사용으로 최소화가 가능하다. 
 두번째 충돌 요소로는 높은 우선순위의 process가 필요로 하는 resource를 낮은 우선순위의 process가 선점하고 있는 경우이다. 이럴 경우 낮은 우선순위의 process가 해당 resource를 release할 때까지 기다려야 한다.
+'
+url: 'http://gospel4u.github.io/'
+baseurl: ''
+
+author:
+  name: 'Hosea Lee'
+
